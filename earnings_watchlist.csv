@@ -1,0 +1,17 @@
+ticker,bucket,organic_rev_growth,op_eps_growth,guidance_revision,fcf_growth,backlog_growth,balance_sheet_quality,valuation_gate,rate_sensitivity,expectation_gap,notes
+NVDA,Core AI,1.00,1.00,0.80,0.80,0.80,1.00,0.40,-0.40,0.20,Seed grades; refresh quarterly
+MU,Memory,1.00,1.00,0.90,1.00,0.80,0.80,0.70,-0.30,0.40,Seed grades; refresh quarterly
+SNDK,Memory/Storage,1.00,1.00,0.80,0.90,0.70,0.80,-0.40,-0.70,-0.40,Excellent fundamentals; high expectations
+LITE,Optics,0.90,0.90,0.70,0.70,0.80,0.50,-0.70,-0.80,-0.50,Strong operations; high rate sensitivity
+AAOI,Optics,0.70,0.20,0.50,0.20,0.60,0.20,-0.70,-0.90,-0.60,Trading exposure; weaker quality
+MRVL,Custom Silicon,0.70,0.70,0.40,0.60,0.80,0.80,-0.20,-0.70,-0.30,Expectations reset needed
+GEV,Power/Grid,0.80,0.90,0.90,0.90,1.00,0.90,0.60,-0.20,0.60,Preferred AI power exposure
+VRT,Cooling/Power,0.80,0.90,0.80,1.00,0.90,0.70,-0.50,-0.70,-0.30,Excellent business; expensive
+ANET,Networking,0.80,0.90,0.80,0.90,0.80,0.90,-0.50,-0.60,-0.20,Excellent business; valuation risk
+DELL,Servers,0.90,1.00,0.90,0.80,1.00,0.60,0.10,-0.40,0.40,Strong revisions; financing-sensitive customers
+CEG,Power,0.70,0.80,0.80,0.70,0.70,0.80,0.40,-0.10,0.50,AI electricity hedge
+VST,Power,0.70,0.70,0.70,0.70,0.70,0.70,0.20,-0.20,0.30,Power exposure
+MSFT,Hyperscaler,0.60,0.70,0.70,0.80,0.90,1.00,0.50,-0.20,0.50,Quality anchor
+APP,Asset-light Growth,0.90,0.90,0.80,0.90,0.70,0.80,0.60,-0.30,0.60,High earnings torque
+CRWD,Cybersecurity,0.70,0.70,0.80,0.80,0.90,0.80,-0.20,-0.50,0.30,Recurring growth
+CAT,Industrial,0.70,0.80,0.70,0.80,0.70,0.90,0.30,0.00,0.50,Nominal-growth diversifier

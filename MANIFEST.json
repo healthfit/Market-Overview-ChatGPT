@@ -1,0 +1,30 @@
+{
+  "project": "Market Risk Model v2",
+  "created": "2026-09-14",
+  "main_files": [
+    "app.py",
+    "run_model.py",
+    "model_engine.py",
+    "data_sources.py",
+    "config.yaml",
+    "earnings_watchlist.csv",
+    "MODEL_SPEC.md",
+    "README.md",
+    "DEPLOY_CLOUD.md",
+    "CODEX_HANDOFF.md",
+    "GAPS_AND_NEXT_STEPS.md"
+  ],
+  "deployment": [
+    "Streamlit Community Cloud",
+    "Render",
+    "Docker",
+    "Google Cloud Run"
+  ],
+  "notes": [
+    "AI Credit Risk is top-line",
+    "Precious Metals is top-line",
+    "Earnings Durability + Expectation Gap is included on every run",
+    "Index futures are not scored"
+  ],
+  "review_status": "mock CLI smoke-tested; cloud/manual override controls added"
+}
