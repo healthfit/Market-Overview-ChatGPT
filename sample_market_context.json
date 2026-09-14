@@ -1,0 +1,30 @@
+{
+  "as_of": "DEMO — not live",
+  "market_commentary": "DEMO ONLY: Long rates are restrictive, broad credit remains calm, AI debt supply is elevated, and the yen is close enough to the carry-unwind zone to require monitoring.",
+  "ai_credit_spread_bps": 89,
+  "broad_ig_spread_bps": 81,
+  "ai_issuance_ytd_bn": 220,
+  "ai_book_coverage_x": 2.1,
+  "ai_new_issue_concession_bps": 18,
+  "ai_lower_quality_score": -1,
+  "ai_credit_commentary": "DEMO: Hyperscaler solvency is strong, but issuance volume, new-issue concessions and lower-quality AI borrowers create a sector-specific cost-of-capital warning.",
+  "ai_credit_source_asof": "DEMO",
+  "sept_hold_odds_pct": 25,
+  "sept_hike_odds_pct": 70,
+  "sept_cut_odds_pct": 5,
+  "fed_commentary": "DEMO: September pricing is hawkish; a high probability of a hike keeps real yields and duration pressure elevated.",
+  "fed_source_asof": "DEMO",
+  "japan_source_asof": "DEMO",
+  "oil_source_asof": "DEMO",
+  "earnings_source_asof": "DEMO latest-quarter screen",
+  "headlines": [
+    {"title":"DEMO Fed repricing","impact":"Higher rate expectations pressure long-duration AI.","source":"sample"},
+    {"title":"DEMO yen/carry risk","impact":"Rapid yen strengthening through 157 to 155 is a forced-deleveraging trigger.","source":"sample"}
+  ],
+  "ai_credit_names": [
+    {"Name":"Microsoft","Quality":"AAA/Aaa area","Signal":"Green","Commentary":"Balance-sheet benchmark."},
+    {"Name":"Alphabet","Quality":"High-grade","Signal":"Yellow","Commentary":"Heavy issuance; absorption matters."},
+    {"Name":"Oracle","Quality":"Lower IG","Signal":"Red","Commentary":"Leverage / lease-adjusted financing sensitivity."},
+    {"Name":"CoreWeave","Quality":"Speculative grade","Signal":"Red","Commentary":"High financing-cost sensitivity."}
+  ]
+}

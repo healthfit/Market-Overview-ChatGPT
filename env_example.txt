@@ -1,0 +1,11 @@
+# Free FRED API key: https://fred.stlouisfed.org/docs/api/api_key.html
+FRED_API_KEY=
+
+# Optional manual overlays / overrides
+EARNINGS_BEAT_RATE=74
+OIL_BRENT=
+OIL_WTI=
+USDJPY=
+JGB10Y=
+JGB30Y=
+POLICY_SHOCK_ACTIVE=false

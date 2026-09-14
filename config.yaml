@@ -1,89 +1,39 @@
 thresholds:
-  ust2:
-    green_max: 3.80
-    red_min: 4.20
-  ust5:
-    green_max: 3.90
-    red_min: 4.25
-  ust10:
-    green_max: 4.10
-    red_min: 4.35
-    hard_red_min: 4.80
-  ust30:
-    green_max: 4.75
-    red_min: 5.00
-    hard_red_min: 5.25
-  real10:
-    green_max: 1.50
-    red_min: 2.00
-  vix:
-    green_max: 18
-    red_min: 22
-    hard_red_min: 25
-  vvix:
-    green_max: 100
-    red_min: 120
-  vxn:
-    green_max: 22
-    red_min: 28
-  hy_oas:
-    green_max: 3.5
-    red_min: 5.0
-  ig_oas:
-    green_max: 1.0
-    red_min: 1.5
-  sofr_effr_bps:
-    green_max: 5
-    red_min: 15
-  net_liquidity_weekly_b:
-    green_min: 50
-    red_max: -50
-  japan30:
-    green_max: 3.4
-    red_min: 3.7
-    hard_red_min: 4.0
-  usdjpy:
-    carry_support_min: 156
-    rapid_unwind_warning: 157
-    unwind_red: 155
-  brent:
-    green_max: 85
-    red_min: 95
-  zbt:
-    trigger: 0.615
-    prior_low: 0.40
-    bearish_breadth_fraction: 0.35
-
+  vix_green_max: 18
+  vix_red_min: 22
+  vvix_red_min: 120
+  vxn_red_min: 28
+  ten_year_green_max: 4.10
+  ten_year_red_min: 4.35
+  thirty_year_red_min: 5.00
+  hy_oas_green_max: 3.5
+  hy_oas_red_min: 5.0
+  ig_oas_green_max: 1.0
+  ig_oas_red_min: 1.5
+  sofr_effr_yellow_bps: 5
+  sofr_effr_red_bps: 15
+  zbt_trigger: 0.615
+  zbt_deep_weak: 0.40
+  adrn_shock_breadth: 0.35
+  brent_shock_level: 95
+  brent_red_level: 105
+  usdjpy_carry_warning: 157
+  usdjpy_carry_red: 155
+  jgb10_red_min: 2.80
+  jgb30_red_min: 3.70
 weights:
   short_term:
-    vol_regime: 0.22
-    rates: 0.18
-    funding: 0.12
-    broad_credit: 0.09
-    ai_credit: 0.06
-    breadth: 0.12
-    japan_carry: 0.09
-    precious_metals_cross_asset: 0.04
-    earnings_durability: 0.08
-
+    vol_regime: 0.25
+    breadth: 0.15
+    rates: 0.20
+    funding: 0.15
+    credit: 0.15
+    japan_carry: 0.10
   medium_term:
-    net_liquidity: 0.20
-    balance_sheet_regime: 0.10
-    broad_credit: 0.075
-    ai_credit: 0.075
-    inflation_real_yields: 0.13
-    earnings_durability: 0.15
-    breadth_zbt: 0.08
-    fed_repricing: 0.08
-    japan_carry: 0.05
-    precious_metals_cross_asset: 0.04
-
-display_order:
-  - ai_credit
-  - precious_metals
-  - earnings_durability
-  - vol_compression
-  - rates
-  - japan_carry
-  - short_term
-  - medium_term
+    net_liquidity: 0.25
+    balance_sheet_regime: 0.15
+    credit: 0.15
+    inflation_real_yields: 0.15
+    earnings: 0.10
+    breadth_zbt: 0.10
+    fed_repricing: 0.10

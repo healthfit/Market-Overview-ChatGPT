@@ -1,0 +1,23 @@
+{
+  "as_of": null,
+  "market_commentary": null,
+  "ai_credit_spread_bps": null,
+  "broad_ig_spread_bps": null,
+  "ai_issuance_ytd_bn": null,
+  "ai_book_coverage_x": null,
+  "ai_new_issue_concession_bps": null,
+  "ai_lower_quality_score": null,
+  "ai_credit_commentary": null,
+  "ai_credit_source_asof": null,
+  "sept_hold_odds_pct": null,
+  "sept_hike_odds_pct": null,
+  "sept_cut_odds_pct": null,
+  "fed_commentary": null,
+  "fed_source_asof": null,
+  "japan_source_asof": null,
+  "oil_source_asof": null,
+  "earnings_source_asof": null,
+  "headlines": [],
+  "ai_credit_names": [],
+  "sources": []
+}
